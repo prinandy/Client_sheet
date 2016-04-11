@@ -1,0 +1,18 @@
+<html ng-app='mainapp'>
+  <head>
+    <script data-require="angular.js@1.4.8" data-semver="1.4.8" src="https://code.angularjs.org/1.4.8/angular.js"></script>
+    <script data-require="angular-route@1.4.8" data-semver="1.4.8" src="https://code.angularjs.org/1.4.8/angular-route.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js">    
+    </script>
+    <script src="controller.jg"></script>
+  </head>
+  <body>
+    <h1>Client environment sheet</h1>
+    <div ng-controller="Frontpage" ng-view="mainView">
+    <button ng-click="view()">View details of existing instance</button>
+    <br/><br>
+    <button ng-click="create()">Create a new instance</button><br/><br/>
+    <button ng-click="modify()">Modify existing instance</button>
+    </div>
+  </body>
+</html>
