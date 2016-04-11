@@ -5,7 +5,7 @@
 	app.config(function($routeProvider){
 
 	$routeProvider
-	.when('/main',{
+	.when('/',{
 		templateUrl:"main.html"
 	     })
 	.when('/newins',{
