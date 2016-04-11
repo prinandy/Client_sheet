@@ -1,11 +1,11 @@
-(function(){
+
 
 	var app=angular.module("mainApp",['ngRouter']);
 
 	app.config(function($routeProvider){
 
 	$routeProvider
-	.when('/',{
+	.when('/main',{
 		templateUrl:"main.html"
 	     })
 	.when('/newins',{
@@ -18,6 +18,6 @@
 		templateUrl: "Detail.html"
 	});
 	});
-}());
+
 
 
